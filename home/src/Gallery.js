@@ -14,7 +14,7 @@ function Gallery() {
         delay, increment, length: PICTURES.length
     });
 
-    console.log('index', index);
+    //console.log('index', index);
     
     const updateDelay = event => {
         const delay = Number(event.target.value) * SECONDS;

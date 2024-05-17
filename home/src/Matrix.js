@@ -29,7 +29,7 @@ function Matrix() {
         )
     }
 
-    console.log('delay', delay, 'increment', increment);
+    //console.log('delay', delay, 'increment', increment);
     return ( 
         <div className='Maxtrix'>
             <img src={MATRIX_FRAMES[index]} alt='matrix-animation' />
